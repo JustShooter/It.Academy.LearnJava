@@ -1,6 +1,6 @@
 package HomeWork11.Strategy;
 
-public class StringTester implements Strategy.TestSpeed {
+public class StringTester implements TestSpeed {
     private String str;
 
     public StringTester(String str) {
