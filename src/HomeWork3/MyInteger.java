@@ -1,3 +1,5 @@
+package HomeWork3;
+
 public class MyInteger {
     private int i;		// Создаём переменную класса типа int с закрытым доступом
     public final static int I_MIN = Integer.MIN_VALUE;		// Создаём константу класса типа int и присваеваем её значение Integer.MAX_VALUE

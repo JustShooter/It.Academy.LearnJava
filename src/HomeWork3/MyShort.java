@@ -1,3 +1,5 @@
+package HomeWork3;
+
 public class MyShort {
     private short s;									// Создаём переменную класса типа short с закрытым доступом
     public final static short S_MIN = Short.MIN_VALUE;	// Создаём константу класса типа short и присваеваем её значение Short.MAX_VALUE

@@ -1,3 +1,5 @@
+package HomeWork3;
+
 public class MyByte {
     private byte b;										// Создаём переменную класса типа byte с закрытым доступом
     public final static byte B_MIN = Byte.MIN_VALUE;	// Создаём константу класса типа byte и присваеваем её значение Byte.MAX_VALUE

@@ -1,3 +1,5 @@
+package HomeWork3;
+
 public class MyLong {
     private long l;										// Создаём переменную класса типа long с закрытым доступом
     public final static long L_MIN = Long.MIN_VALUE;	// Создаём константу класса типа long и присваеваем её значение Long.MAX_VALUE

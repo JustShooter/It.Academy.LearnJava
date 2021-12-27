@@ -1,3 +1,5 @@
+package HomeWork3;
+
 public class HomeWork3 {
 
     private static void print(byte b, short s, int i, long l) {		// Создаю метод с закрытым доступом для вывода в консоль передаваемых на вход значений целочисленных переменных
