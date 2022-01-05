@@ -5,6 +5,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task47 {
+
+    public static final String PATTERN_FOR_WORDS = "[A-Za-zА-Яа-я]{2,}";
+
     public static void main(String[] args) {
         File file = createFile();
         fillFileWithTextString(file);
@@ -88,7 +91,7 @@ public class Task47 {
 
     public static int countWords(String str) {
         int count = 0;
-        Pattern p = Pattern.compile("[A-Za-zА-Яа-я]{2,}"); // Слово должно содержать не менее 2 букв
+        Pattern p = Pattern.compile(PATTERN_FOR_WORDS); // Слово должно содержать не менее 2 букв
         Matcher m = p.matcher(str);
         while (m.find()) {
             count++;

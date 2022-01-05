@@ -8,6 +8,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task48 {
+
+    public static final String PATTERN_FOR_NUMBERS = "\\d++";
+
     public static void main(String[] args) {
         File file = createFile();
         fillFileWithNumbersString(file);
@@ -91,7 +94,7 @@ public class Task48 {
     }
 
     public static void printNumbers(StringBuilder str) {
-        Pattern p = Pattern.compile("\\d++");
+        Pattern p = Pattern.compile(PATTERN_FOR_NUMBERS);
         Matcher m = p.matcher(str);
 //        Set<Integer> set = new LinkedHashSet<>();
         while (m.find()) {
@@ -106,7 +109,7 @@ public class Task48 {
     }
 
     public static int countNumbers(StringBuilder str) {
-        Pattern p = Pattern.compile("\\d++");
+        Pattern p = Pattern.compile(PATTERN_FOR_NUMBERS);
         Matcher m = p.matcher(str);
         int glass = 0;
 //        Set<Integer> set = new LinkedHashSet<>();
@@ -123,7 +126,7 @@ public class Task48 {
 
     public static StringBuilder removeSameNumbers(StringBuilder str) {
         StringBuilder sb = new StringBuilder();
-        Pattern p = Pattern.compile("\\d++");
+        Pattern p = Pattern.compile(PATTERN_FOR_NUMBERS);
         Matcher m = p.matcher(str);
         Set<Integer> set = new LinkedHashSet<>();
         while (m.find()) {
