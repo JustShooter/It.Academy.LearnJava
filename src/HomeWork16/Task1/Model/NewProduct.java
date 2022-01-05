@@ -5,7 +5,7 @@ package HomeWork16.Task1.Model;
 
 import java.util.Objects;
 
-public class NewProduct {
+public final class NewProduct {
     private final int toySize;
     private final int toyPrice;
 

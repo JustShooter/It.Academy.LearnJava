@@ -2,7 +2,7 @@ package HomeWork16.Task3.Model;
 
 import java.util.Objects;
 
-public class Item {
+public final class Item {
     private final String name;
     private final double price;
     private final int rating; // from 1 to 10
