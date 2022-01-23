@@ -1,10 +1,9 @@
 package HomeWork20;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.stream.Stream;
 
 public class Task57 {
     private static final Random random = new Random();
@@ -17,21 +16,20 @@ public class Task57 {
             queue.add(random.nextInt(100) + 1);
         }
 
-        List<Thread> threads = new ArrayList<>();
-
         WareHouse wareHouse = new WareHouse(queue);
 
-        for (int i = 0; i < 3; i++) {
-            threads.add(new Thread(new Producer(wareHouse), "Поставщик №" + i));
-        }
+        Stream.iterate(1, i -> i + 1)
+                .limit(3)
+                .forEach(i ->
+                        new Thread(new Producer(wareHouse), "Поставщик №" + i)
+                                .start());
 
-        for (int i = 0; i < 2; i++) {
-            threads.add(new Thread(new Consumer(wareHouse), "Покупатель №" + i));
-        }
+        Stream.iterate(1, i -> i + 1)
+                .limit(2)
+                .forEach(i ->
+                        new Thread(new Consumer(wareHouse), "Покупатель №" + i)
+                                .start());
 
-        for (Thread thread : threads) {
-            thread.start();
-        }
     }
 }
 
@@ -118,7 +116,7 @@ class Producer implements Runnable {
         while (wareHouse.receipt()) {
             System.out.println("^^^ Приём товара на склад! ^^^");
         }
-        System.out.println("Закончили работу!");
+        System.out.println("Producer закончил работу!");
     }
 }
 
@@ -136,7 +134,7 @@ class Consumer implements Runnable {
         while (wareHouse.shipment()) {
             System.out.println("^^^ Отгрузка! ^^^");
         }
-        System.out.println("Закончили работу!");
+        System.out.println("Consumer закончил работу!");
     }
 }
 
