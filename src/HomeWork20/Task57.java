@@ -7,25 +7,28 @@ import java.util.stream.Stream;
 
 public class Task57 {
     private static final Random random = new Random();
+    public static final int PRODUCER_COUNT = 3;
+    public static final int CONSUMER_COUNT = 2;
+    public static final int QUEUE_SIZE = 200;
 
     public static void main(String[] args) {
 
         Queue<Integer> queue = new LinkedBlockingQueue<>();
 
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < QUEUE_SIZE; i++) {
             queue.add(random.nextInt(100) + 1);
         }
 
         WareHouse wareHouse = new WareHouse(queue);
 
         Stream.iterate(1, i -> i + 1)
-                .limit(3)
+                .limit(PRODUCER_COUNT)
                 .forEach(i ->
                         new Thread(new Producer(wareHouse), "Поставщик №" + i)
                                 .start());
 
         Stream.iterate(1, i -> i + 1)
-                .limit(2)
+                .limit(CONSUMER_COUNT)
                 .forEach(i ->
                         new Thread(new Consumer(wareHouse), "Покупатель №" + i)
                                 .start());
@@ -35,6 +38,7 @@ public class Task57 {
 
 
 class WareHouse {
+    public static final int MAXIMUM_ITERATIONS = 10000;
     private final Object locker = new Object();
     private final Random random = new Random();
 
@@ -53,7 +57,7 @@ class WareHouse {
     public boolean shipment() {
 
         synchronized (locker) {
-            if (getIterationsCount() >= 10000) {
+            if (getIterationsCount() >= MAXIMUM_ITERATIONS) {
                 return false;
             }
             while (queue.size() < 1) {
@@ -79,7 +83,7 @@ class WareHouse {
     public boolean receipt() {
 
         synchronized (locker) {
-            if (getIterationsCount() >= 10000) {
+            if (getIterationsCount() >= MAXIMUM_ITERATIONS) {
                 return false;
             }
 
