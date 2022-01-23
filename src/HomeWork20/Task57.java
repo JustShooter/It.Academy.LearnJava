@@ -107,7 +107,7 @@ class WareHouse {
 
 class Producer implements Runnable {
 
-    WareHouse wareHouse;
+    private WareHouse wareHouse;
 
     Producer(WareHouse wareHouse) {
         this.wareHouse = wareHouse;
@@ -125,7 +125,7 @@ class Producer implements Runnable {
 
 class Consumer implements Runnable {
 
-    WareHouse wareHouse;
+    private WareHouse wareHouse;
 
     public Consumer(WareHouse wareHouse) {
         this.wareHouse = wareHouse;

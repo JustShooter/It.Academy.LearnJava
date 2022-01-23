@@ -14,7 +14,7 @@ public class Task56 {
             b.taskB(c);
             b.last();
         });
-                Thread thread3 = new Thread(() -> {
+        Thread thread3 = new Thread(() -> {
             c.taskC(a);
             c.last();
         });
@@ -64,6 +64,7 @@ class B {
         System.out.println(" B.last() ");
     }
 }
+
 class C {
     synchronized void taskC(A a) {
         String name = Thread.currentThread().getName();

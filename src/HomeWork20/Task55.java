@@ -1,7 +1,5 @@
 package HomeWork20;
 
-import java.util.concurrent.locks.ReentrantLock;
-
 public class Task55 {
 
     public static final int THREADS = 10;
@@ -17,11 +15,11 @@ public class Task55 {
 
 class MyThread extends Thread {
     public static final int MILLIS = 2000;
-    final String locker;
+    private final String locker;
 
 
     public MyThread(String locker, int number) {
-        super(locker + String.valueOf(number));
+        super(locker + number);
         this.locker = locker;
     }
 
