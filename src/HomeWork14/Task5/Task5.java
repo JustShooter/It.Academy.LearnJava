@@ -1,9 +1,9 @@
-package Task5;
+package HomeWork14.Task5;
 
-import Task5.Model.Cat;
-import Task5.Model.Dog;
-import Task5.Model.Parrot;
-import Task5.Model.Pet;
+import HomeWork14.Task5.Model.Cat;
+import HomeWork14.Task5.Model.Dog;
+import HomeWork14.Task5.Model.Parrot;
+import HomeWork14.Task5.Model.Pet;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,7 +25,7 @@ public class Task5 {
     }
 
     private static void printPets(Map<String, Pet> homePets) {
-        for (Pet pet: homePets.values()) {
+        for (Pet pet : homePets.values()) {
             pet.display();
             System.out.println("My weight is " + pet.getWeight() + " kg");
             pet.performMove();

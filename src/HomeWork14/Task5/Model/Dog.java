@@ -1,7 +1,7 @@
-package Task5.Model;
+package HomeWork14.Task5.Model;
 
-import Task5.Service.DogVoice;
-import Task5.Service.RunByPaws;
+import HomeWork14.Task5.Service.DogVoice;
+import HomeWork14.Task5.Service.RunByPaws;
 
 public class Dog extends Pet {
     public Dog(int weight) {

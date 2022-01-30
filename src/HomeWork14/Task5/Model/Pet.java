@@ -1,7 +1,7 @@
-package Task5.Model;
+package HomeWork14.Task5.Model;
 
-import Task5.Service.MoveBehavior;
-import Task5.Service.VoiceBehavior;
+import HomeWork14.Task5.Service.MoveBehavior;
+import HomeWork14.Task5.Service.VoiceBehavior;
 
 import java.util.Objects;
 

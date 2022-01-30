@@ -1,7 +1,7 @@
-package Task5.Model;
+package HomeWork14.Task5.Model;
 
-import Task5.Service.CatVoice;
-import Task5.Service.RunByPaws;
+import HomeWork14.Task5.Service.CatVoice;
+import HomeWork14.Task5.Service.RunByPaws;
 
 public class Cat extends Pet {
     public Cat(int weight) {
