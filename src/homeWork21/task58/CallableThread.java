@@ -27,12 +27,11 @@ public class CallableThread implements Callable<List> {
 
         for (int i = 1; i <= NUMBER_OF_STRING_LINES_TO_WRITE_IN_FILE; i++) {
             String threadName = Thread.currentThread().getName();
-            String fileName = threadName
-                    + " "
-                    + LocalTime.now().format(DateTimeFormatter.ofPattern("HH-mm-ss-ms"))
-                    + " "
-                    + i
-                    + FILE_EXTENSION;
+            String fileName = String.format("%s %s %d%s",
+                    threadName,
+                    LocalTime.now().format(DateTimeFormatter.ofPattern("HH-mm-ss-ms")),
+                    i,
+                    FILE_EXTENSION);
             System.out.printf("Creating file \"%s\" in thread \"%s\"%n", fileName, threadName);
             File file = new File(fileName);
             file.deleteOnExit();
