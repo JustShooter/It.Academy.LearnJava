@@ -10,6 +10,7 @@ import java.util.concurrent.Callable;
 public class CallableThread implements Callable<String> {
     public static final String FILE_EXTENSION = ".txt";
     public static final String PATTERN = "HH-mm-ss-ms";
+    public static final String FILE_NAME = "task60";
 
     @Override
     public String call() throws Exception {
@@ -18,18 +19,22 @@ public class CallableThread implements Callable<String> {
         System.out.printf("\"%s\" is starting to work!%n",
                 threadName);
 
-        String fileName = "task60" + FILE_EXTENSION;
+        String fileName = FILE_NAME + FILE_EXTENSION;
 
-        String message = "Hello world " + LocalTime.now().format(DateTimeFormatter.ofPattern(PATTERN));
+        String message = getMessage();
 
         System.out.printf("Thread \"%s\" sending string message:%n\"%s\"%nto file writer method%n",
                 threadName,
                 message);
 
         File file = new File(fileName);
-        file.deleteOnExit();
+        file.deleteOnExit(); // Это что бы не захламлять проект.
         Writer_task60.writeMessageToFile(file, message, threadName);
 
         return message;
+    }
+
+    private String getMessage() {
+        return "Hello world " + LocalTime.now().format(DateTimeFormatter.ofPattern(PATTERN));
     }
 }

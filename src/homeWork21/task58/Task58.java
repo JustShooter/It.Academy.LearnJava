@@ -18,12 +18,23 @@ public class Task58 {
 
         List<Future<List>> futureList = new ArrayList<>();
 
+        startThreadPool(threadPool, callableThread, futureList);
 
+        printFutureList(futureList);
+
+        System.out.println("Shutting down ExecutorService");
+        threadPool.shutdown();
+        System.out.println("Main finished");
+
+    }
+
+    private static void startThreadPool(ExecutorService threadPool, Callable<List> callableThread, List<Future<List>> futureList) {
         for (int i = 0; i < NUMBER_OF_THREAD_POOLS; i++) {
             futureList.add(threadPool.submit(callableThread));
         }
+    }
 
-
+    private static void printFutureList(List<Future<List>> futureList) {
         for (Future<List> future : futureList) {
             System.out.println("Printing list from callable thread:");
             try {
@@ -32,11 +43,6 @@ public class Task58 {
                 e.printStackTrace();
             }
         }
-
-        System.out.println("Shutting down ExecutorService");
-        threadPool.shutdown();
-        System.out.println("Main finished");
-
     }
 }
 

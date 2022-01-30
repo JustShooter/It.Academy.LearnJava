@@ -26,14 +26,18 @@ public class CallableThread implements Callable<String> {
                 .sum());
 
 
+        Thread.sleep(getSleepTime(threadName));
+
+        return str;
+    }
+
+    private int getSleepTime(String threadName) {
         int sleepTime = (RANDOM.nextInt(MAXIMUM_TIME_TO_SLEEP_IN_SECONDS)
                 + MINIMUM_TIME_TO_SLEEP_IN_SECONDS)
                 * MILLIS_TO_SECONDS_MULTIPLIER;
         System.out.printf("Trying to sleep \"%d\" seconds in thread \"%s\"%n",
                 sleepTime / MILLIS_TO_SECONDS_MULTIPLIER,
-                Thread.currentThread().getName());
-        Thread.sleep(sleepTime);
-
-        return str;
+                threadName);
+        return sleepTime;
     }
 }
