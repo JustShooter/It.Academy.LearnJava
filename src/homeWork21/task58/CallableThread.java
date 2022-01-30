@@ -16,6 +16,7 @@ public class CallableThread implements Callable<List> {
     public static final int MINIMUM_TIME_TO_SLEEP_IN_SECONDS = 1;
     public static final int MILLIS_TO_SECONDS_MULTIPLIER = 1000;
     public static final Random RANDOM = new Random();
+    public static final String PATTERN = "HH-mm-ss-ms";
 
     @Override
     public List call() throws Exception {
@@ -64,7 +65,7 @@ public class CallableThread implements Callable<List> {
     private String getFileName(int i, String threadName) {
         String fileName = String.format("%s %s %d%s",
                 threadName,
-                LocalTime.now().format(DateTimeFormatter.ofPattern("HH-mm-ss-ms")),
+                LocalTime.now().format(DateTimeFormatter.ofPattern(PATTERN)),
                 i,
                 FILE_EXTENSION);
         return fileName;
