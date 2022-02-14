@@ -1,4 +1,4 @@
-package main.java.HomeWork17.Task48;
+package HomeWork17.Task48;
 
 import java.io.*;
 import java.util.LinkedHashSet;

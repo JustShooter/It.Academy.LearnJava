@@ -3,7 +3,7 @@
  * 1 января 2022 года
  * 23:34
  */
-package main.java.HomeWork16.Task4;
+package HomeWork16.Task4;
 
 import java.util.*;
 

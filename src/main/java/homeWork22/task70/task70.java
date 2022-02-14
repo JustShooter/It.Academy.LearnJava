@@ -1,6 +1,6 @@
-package main.java.homeWork22.task70;
+package homeWork22.task70;
 
-import main.java.homeWork22.task70.model.Man;
+import homeWork22.task70.model.Man;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

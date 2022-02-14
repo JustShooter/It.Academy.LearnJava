@@ -1,4 +1,4 @@
-package main.java.HomeWork3;
+package homeWork3;
 
 public class MyInteger {
     private int i;		// Создаём переменную класса типа int с закрытым доступом

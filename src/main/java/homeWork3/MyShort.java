@@ -1,4 +1,4 @@
-package main.java.HomeWork3;
+package homeWork3;
 
 public class MyShort {
     private short s;									// Создаём переменную класса типа short с закрытым доступом

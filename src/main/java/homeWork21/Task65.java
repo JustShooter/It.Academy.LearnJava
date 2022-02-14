@@ -4,7 +4,7 @@
  * потом, добавляем время, форматируем запись
  * и выводим :)
  */
-package main.java.homeWork21;
+package homeWork21;
 
 import java.text.ParseException;
 import java.time.Period;

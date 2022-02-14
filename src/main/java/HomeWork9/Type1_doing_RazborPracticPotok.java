@@ -1,4 +1,4 @@
-package main.java.HomeWork9;
+package HomeWork9;
 
 public class Type1_doing_RazborPracticPotok implements Learningable {
     private static final double TYPE1 = 3.0;

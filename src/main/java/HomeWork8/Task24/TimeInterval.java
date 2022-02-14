@@ -1,4 +1,4 @@
-package main.java.HomeWork8.Task24;
+package HomeWork8.Task24;
 
 public class TimeInterval {
     private final int sec;

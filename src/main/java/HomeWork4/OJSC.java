@@ -1,4 +1,4 @@
-package main.java.HomeWork4;
+package HomeWork4;
 
 public class OJSC extends LegalEntity {
 

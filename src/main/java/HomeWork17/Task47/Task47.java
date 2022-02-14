@@ -1,4 +1,4 @@
-package main.java.HomeWork17.Task47;
+package HomeWork17.Task47;
 
 import java.io.*;
 import java.util.regex.Matcher;

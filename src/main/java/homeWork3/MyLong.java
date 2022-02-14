@@ -1,4 +1,4 @@
-package main.java.HomeWork3;
+package homeWork3;
 
 public class MyLong {
     private long l;										// Создаём переменную класса типа long с закрытым доступом

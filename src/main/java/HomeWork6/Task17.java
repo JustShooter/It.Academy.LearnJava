@@ -1,4 +1,4 @@
-package main.java.HomeWork6;
+package HomeWork6;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

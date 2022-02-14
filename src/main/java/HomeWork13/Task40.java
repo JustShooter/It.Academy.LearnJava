@@ -1,4 +1,4 @@
-package main.java.HomeWork13;
+package HomeWork13;
 
 import java.util.*;
 

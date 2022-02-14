@@ -1,6 +1,6 @@
-package main.java.HomeWork16.Task2.Service;
+package HomeWork16.Task2.Service;
 
-import main.java.HomeWork16.Task2.Model.NewHeavyBox;
+import HomeWork16.Task2.Model.NewHeavyBox;
 
 import java.util.Set;
 

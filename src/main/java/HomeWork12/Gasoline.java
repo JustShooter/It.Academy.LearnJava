@@ -1,4 +1,4 @@
-package main.java.HomeWork12;
+package HomeWork12;
 
 public class Gasoline extends Engine {
 

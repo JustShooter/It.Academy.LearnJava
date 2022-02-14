@@ -1,6 +1,6 @@
-package main.java.HomeWork14.Task2;
+package HomeWork14.Task2;
 
-import main.java.HomeWork14.Task2.Model.HeavyBox;
+import HomeWork14.Task2.Model.HeavyBox;
 
 import java.util.Iterator;
 import java.util.LinkedList;

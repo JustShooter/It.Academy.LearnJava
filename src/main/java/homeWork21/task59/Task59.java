@@ -1,4 +1,4 @@
-package main.java.homeWork21.task59;
+package homeWork21.task59;
 
 import java.util.ArrayList;
 import java.util.List;

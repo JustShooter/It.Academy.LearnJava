@@ -1,4 +1,4 @@
-package main.java.HomeWork17.Task43;
+package HomeWork17.Task43;
 
 public class Task43 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.HomeWork17.Task44;
+package HomeWork17.Task44;
 
 public class MyException extends Exception {
     public MyException() {

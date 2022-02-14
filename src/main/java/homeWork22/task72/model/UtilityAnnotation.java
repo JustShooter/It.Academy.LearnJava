@@ -1,6 +1,6 @@
-package main.java.homeWork22.task72.model;
+package homeWork22.task72.model;
 
-import main.java.homeWork22.task72.annotations.AcademyInfo;
+import homeWork22.task72.annotations.AcademyInfo;
 
 public class UtilityAnnotation {
 

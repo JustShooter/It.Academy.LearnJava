@@ -1,4 +1,4 @@
-package main.java.HomeWork14.Task2.Model;
+package HomeWork14.Task2.Model;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package main.java.homeWork21.task58;
+package homeWork21.task58;
 
 import java.io.*;
 import java.time.LocalTime;

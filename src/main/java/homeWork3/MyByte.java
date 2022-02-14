@@ -1,4 +1,4 @@
-package main.java.HomeWork3;
+package homeWork3;
 
 public class MyByte {
     private byte b;										// Создаём переменную класса типа byte с закрытым доступом

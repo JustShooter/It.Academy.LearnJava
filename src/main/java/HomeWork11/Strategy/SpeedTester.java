@@ -1,4 +1,4 @@
-package main.java.HomeWork11.Strategy;
+package HomeWork11.Strategy;
 
 public class SpeedTester {
     public static void main(String[] args) {

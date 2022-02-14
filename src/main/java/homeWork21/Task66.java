@@ -1,7 +1,7 @@
 /**
  * Наверное это задача с самым коротким кодом :)
  */
-package main.java.homeWork21;
+package homeWork21;
 
 import java.time.LocalDate;
 

@@ -1,7 +1,7 @@
 /**
  * Надеюсь условие задачи понял правильно
  */
-package main.java.HomeWork17.Task45;
+package HomeWork17.Task45;
 
 public class Task45 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.HomeWork15.Model;
+package HomeWork15.Model;
 
 import java.util.Arrays;
 import java.util.Comparator;

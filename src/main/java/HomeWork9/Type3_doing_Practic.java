@@ -1,4 +1,4 @@
-package main.java.HomeWork9;
+package HomeWork9;
 
 public class Type3_doing_Practic implements Learningable {
     private static final double TYPE3 = 3.0;

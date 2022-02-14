@@ -1,6 +1,6 @@
-package main.java.HomeWork16.Task3.Service;
+package HomeWork16.Task3.Service;
 
-import main.java.HomeWork16.Task3.Model.Item;
+import HomeWork16.Task3.Model.Item;
 
 import java.util.Comparator;
 import java.util.List;

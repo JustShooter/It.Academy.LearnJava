@@ -1,4 +1,4 @@
-package main.java.HomeWork20;
+package HomeWork20;
 
 import java.util.Queue;
 import java.util.Random;

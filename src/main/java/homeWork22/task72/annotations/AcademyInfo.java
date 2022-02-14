@@ -1,4 +1,4 @@
-package main.java.homeWork22.task72.annotations;
+package homeWork22.task72.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

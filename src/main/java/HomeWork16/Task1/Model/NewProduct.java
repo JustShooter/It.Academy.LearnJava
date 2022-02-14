@@ -1,7 +1,7 @@
 /**
  * NewProduct class
  */
-package main.java.HomeWork16.Task1.Model;
+package HomeWork16.Task1.Model;
 
 import java.util.Objects;
 

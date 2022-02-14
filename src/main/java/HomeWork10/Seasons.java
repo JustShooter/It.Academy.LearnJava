@@ -1,4 +1,4 @@
-package main.java.HomeWork10;
+package HomeWork10;
 
 public enum Seasons {
     WINTER("Зима", 90),

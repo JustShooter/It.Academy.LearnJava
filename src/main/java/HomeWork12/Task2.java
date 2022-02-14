@@ -1,4 +1,4 @@
-package main.java.HomeWork12;
+package HomeWork12;
 
 public class Task2 {
     public static void main(String[] args) {

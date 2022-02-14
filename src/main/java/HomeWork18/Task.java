@@ -1,4 +1,4 @@
-package main.java.HomeWork18;
+package HomeWork18;
 
 import java.io.BufferedReader;
 import java.io.File;

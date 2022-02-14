@@ -1,7 +1,7 @@
-package main.java.homeWork22.task72;
+package homeWork22.task72;
 
-import main.java.homeWork22.task72.annotations.AcademyInfo;
-import main.java.homeWork22.task72.model.UtilityAnnotation;
+import homeWork22.task72.annotations.AcademyInfo;
+import homeWork22.task72.model.UtilityAnnotation;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

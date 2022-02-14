@@ -1,4 +1,4 @@
-package main.java.HomeWork2;
+package homeWork2;
 
 public class HomeWork2 {
     public byte b;		//Переменные класса

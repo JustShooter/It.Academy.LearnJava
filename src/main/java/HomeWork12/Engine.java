@@ -1,4 +1,4 @@
-package main.java.HomeWork12;
+package HomeWork12;
 
 public abstract class Engine {
     private final int power;

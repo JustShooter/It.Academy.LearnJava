@@ -1,6 +1,6 @@
-package main.java.HomeWork9;
+package HomeWork9;
 
-import main.java.HomeWork9.Learningable;
+import HomeWork9.Learningable;
 
 public abstract class Students implements Learningable {
     private double talent;

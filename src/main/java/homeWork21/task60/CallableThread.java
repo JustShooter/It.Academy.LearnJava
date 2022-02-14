@@ -1,6 +1,6 @@
-package main.java.homeWork21.task60;
+package homeWork21.task60;
 
-import main.java.homeWork21.task60.service.Writer_task60;
+import homeWork21.task60.service.Writer_task60;
 
 import java.io.File;
 import java.time.LocalTime;

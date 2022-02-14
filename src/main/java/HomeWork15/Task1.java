@@ -1,7 +1,7 @@
-package main.java.HomeWork15;
+package HomeWork15;
 
-import main.java.HomeWork15.Model.Student;
-import main.java.HomeWork15.Model.StudentComparator;
+import HomeWork15.Model.Student;
+import HomeWork15.Model.StudentComparator;
 
 import java.util.*;
 

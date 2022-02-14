@@ -1,8 +1,8 @@
-package main.java.HomeWork19;
+package HomeWork19;
 
-import main.java.HomeWork18.Task51.Model.Person;
-import main.java.HomeWork18.Task51.Service.PersonService;
-import main.java.HomeWork18.Task51.Service.PersonServiceImpl;
+import HomeWork18.Task51.Model.Person;
+import HomeWork18.Task51.Service.PersonService;
+import HomeWork18.Task51.Service.PersonServiceImpl;
 
 import java.util.Comparator;
 import java.util.stream.Stream;

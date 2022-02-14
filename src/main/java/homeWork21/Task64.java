@@ -1,4 +1,4 @@
-package main.java.homeWork21;
+package homeWork21;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

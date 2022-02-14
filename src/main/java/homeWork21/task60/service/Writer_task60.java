@@ -1,4 +1,4 @@
-package main.java.homeWork21.task60.service;
+package homeWork21.task60.service;
 
 import java.io.BufferedWriter;
 import java.io.File;

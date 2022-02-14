@@ -1,11 +1,11 @@
-package main.java.HomeWork16.Task3;
+package HomeWork16.Task3;
 
-import main.java.HomeWork16.Task3.Model.Item;
-import main.java.HomeWork16.Task3.Model.ItemSortByName;
-import main.java.HomeWork16.Task3.Model.ItemSortByPrice;
-import main.java.HomeWork16.Task3.Model.ItemSortByRating;
-import main.java.HomeWork16.Task3.Service.ItemService;
-import main.java.HomeWork16.Task3.Service.ItemServiceImpl;
+import HomeWork16.Task3.Model.Item;
+import HomeWork16.Task3.Model.ItemSortByName;
+import HomeWork16.Task3.Model.ItemSortByPrice;
+import HomeWork16.Task3.Model.ItemSortByRating;
+import HomeWork16.Task3.Service.ItemService;
+import HomeWork16.Task3.Service.ItemServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;

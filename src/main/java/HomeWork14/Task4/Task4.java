@@ -1,6 +1,6 @@
-package main.java.HomeWork14.Task4;
+package HomeWork14.Task4;
 
-import main.java.HomeWork14.Task4.Model.Student;
+import HomeWork14.Task4.Model.Student;
 
 import java.util.Collection;
 import java.util.HashSet;

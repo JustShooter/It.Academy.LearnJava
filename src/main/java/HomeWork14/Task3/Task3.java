@@ -1,6 +1,6 @@
-package main.java.HomeWork14.Task3;
+package HomeWork14.Task3;
 
-import main.java.HomeWork14.Task3.Model.Product;
+import HomeWork14.Task3.Model.Product;
 
 import java.util.HashMap;
 import java.util.Map;

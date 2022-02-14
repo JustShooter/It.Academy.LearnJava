@@ -1,4 +1,4 @@
-package main.java.homeWork22.task70.model;
+package homeWork22.task70.model;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package main.java.HomeWork19;
+package HomeWork19;
 
 import java.util.stream.Stream;
 

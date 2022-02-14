@@ -1,8 +1,8 @@
-package main.java.HomeWork16.Task2;
+package HomeWork16.Task2;
 
-import main.java.HomeWork16.Task2.Model.NewHeavyBox;
-import main.java.HomeWork16.Task2.Service.NewHeavyBoxService;
-import main.java.HomeWork16.Task2.Service.NewHeavyBoxServiceImp;
+import HomeWork16.Task2.Model.NewHeavyBox;
+import HomeWork16.Task2.Service.NewHeavyBoxService;
+import HomeWork16.Task2.Service.NewHeavyBoxServiceImp;
 
 import java.util.Set;
 import java.util.TreeSet;

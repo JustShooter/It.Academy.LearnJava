@@ -2,9 +2,9 @@
  * NewProduct Service Implementation
  */
 
-package main.java.HomeWork16.Task1.Service;
+package HomeWork16.Task1.Service;
 
-import main.java.HomeWork16.Task1.Model.NewProduct;
+import HomeWork16.Task1.Model.NewProduct;
 
 import java.util.Map;
 

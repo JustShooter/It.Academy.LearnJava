@@ -1,6 +1,6 @@
-package main.java.homeWork22.task71;
+package homeWork22.task71;
 
-import main.java.homeWork22.task71.model.HelloWorld;
+import homeWork22.task71.model.HelloWorld;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

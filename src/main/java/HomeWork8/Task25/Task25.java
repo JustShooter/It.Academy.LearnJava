@@ -1,4 +1,4 @@
-package main.java.HomeWork8.Task25;
+package HomeWork8.Task25;
 
 import java.util.Scanner;
 

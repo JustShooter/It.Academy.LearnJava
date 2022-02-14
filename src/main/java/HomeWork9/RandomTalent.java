@@ -1,4 +1,4 @@
-package main.java.HomeWork9;
+package HomeWork9;
 
 public class RandomTalent {
     public static double getRandomTalent() {

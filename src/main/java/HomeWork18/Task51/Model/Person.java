@@ -1,4 +1,4 @@
-package main.java.HomeWork18.Task51.Model;
+package HomeWork18.Task51.Model;
 
 import java.io.Serializable;
 import java.util.Objects;

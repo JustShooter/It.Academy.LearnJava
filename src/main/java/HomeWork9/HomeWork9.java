@@ -1,6 +1,6 @@
-package main.java.HomeWork9;
+package HomeWork9;
 
-import main.java.HomeWork9.Gruppa;
+import HomeWork9.Gruppa;
 
 import java.util.Scanner;
 

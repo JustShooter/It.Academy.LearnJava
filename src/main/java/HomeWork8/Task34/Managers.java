@@ -1,4 +1,4 @@
-package main.java.HomeWork8.Task34;
+package HomeWork8.Task34;
 
 public class Managers extends Employee {
     // процентная оплата труда

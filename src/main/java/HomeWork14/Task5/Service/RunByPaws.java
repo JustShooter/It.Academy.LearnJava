@@ -1,4 +1,4 @@
-package main.java.HomeWork14.Task5.Service;
+package HomeWork14.Task5.Service;
 
 public class RunByPaws implements MoveBehavior {
     @Override

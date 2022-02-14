@@ -1,4 +1,4 @@
-package main.java.homeWork21.task59;
+package homeWork21.task59;
 
 import java.util.Random;
 import java.util.concurrent.Callable;

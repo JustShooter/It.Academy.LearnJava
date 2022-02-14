@@ -1,4 +1,4 @@
-package main.java.HomeWork16.Task3.Model;
+package HomeWork16.Task3.Model;
 
 import java.util.Comparator;
 

@@ -1,9 +1,9 @@
-package main.java.HomeWork14.Task5;
+package HomeWork14.Task5;
 
-import main.java.HomeWork14.Task5.Model.Cat;
-import main.java.HomeWork14.Task5.Model.Dog;
-import main.java.HomeWork14.Task5.Model.Parrot;
-import main.java.HomeWork14.Task5.Model.Pet;
+import HomeWork14.Task5.Model.Cat;
+import HomeWork14.Task5.Model.Dog;
+import HomeWork14.Task5.Model.Parrot;
+import HomeWork14.Task5.Model.Pet;
 
 import java.util.HashMap;
 import java.util.Map;

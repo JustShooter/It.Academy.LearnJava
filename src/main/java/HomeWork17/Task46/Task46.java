@@ -2,7 +2,7 @@
  * Кто подскажет, какой из двух указанных ниже, вариантов получения рабочей папки более правильный?
  * Через System.GetProperty или же через класс Paths?
  */
-package main.java.HomeWork17.Task46;
+package HomeWork17.Task46;
 
 import java.io.File;
 import java.nio.file.Paths;

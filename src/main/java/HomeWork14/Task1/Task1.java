@@ -1,4 +1,4 @@
-package main.java.HomeWork14.Task1;
+package HomeWork14.Task1;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;

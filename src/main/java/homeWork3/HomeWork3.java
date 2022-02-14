@@ -1,4 +1,4 @@
-package main.java.HomeWork3;
+package homeWork3;
 
 public class HomeWork3 {
 
@@ -27,7 +27,7 @@ public class HomeWork3 {
         print(objMaxByte.getValue(), objMaxShort.getValue(), objMaxInt.getValue(), objMaxLong.getValue());	// Вывожу в консоль максимальные значения целочисленных переменных из экземпляров классов через метод print()
 
         System.out.println("\nВывод минимальных значений целочисленных переменных");						// Вывожу в консоль текст
-        print(objMinByte.getValue(), objMinShort.getValue(), objMinInt.getValue(), objMinLong.getValue());	// Вывожу в консоль минимальные значения целочисленных переменных из экземпляров классов через метод print()	
+        print(objMinByte.getValue(), objMinShort.getValue(), objMinInt.getValue(), objMinLong.getValue());	// Вывожу в консоль минимальные значения целочисленных переменных из экземпляров классов через метод print()
 
         objMaxByte.addOne();	// Вызываю метод addOne из экземпляра класса MyByte, который прибавляет еденицу к максимальному значению данного типа переменной
         objMaxShort.addOne();	// Вызываю метод addOne из экземпляра класса MyShort, который прибавляет еденицу к максимальному значению данного типа переменной
@@ -43,7 +43,7 @@ public class HomeWork3 {
         print(objMaxByte.getValue(), objMaxShort.getValue(), objMaxInt.getValue(), objMaxLong.getValue());	// Вывожу в консоль максимальные значения целочисленных переменных после добавления 1 к их значениям из экземпляров классов через метод print()
 
         System.out.println("\nВывод минимальных значений целочисленных переменных после вычитания 1");		// Вывожу в консоль текст
-        print(objMinByte.getValue(), objMinShort.getValue(), objMinInt.getValue(), objMinLong.getValue());	// Вывожу в консоль минимальные значения целочисленных переменных после вычитания 1 из их значений из экземпляров классов через метод print()		
+        print(objMinByte.getValue(), objMinShort.getValue(), objMinInt.getValue(), objMinLong.getValue());	// Вывожу в консоль минимальные значения целочисленных переменных после вычитания 1 из их значений из экземпляров классов через метод print()
 
     }
 }

@@ -1,11 +1,11 @@
 /**
  * Runner
  */
-package main.java.HomeWork16.Task1;
+package HomeWork16.Task1;
 
-import main.java.HomeWork16.Task1.Model.NewProduct;
-import main.java.HomeWork16.Task1.Service.NewProductService;
-import main.java.HomeWork16.Task1.Service.NewProductServiceImpl;
+import HomeWork16.Task1.Model.NewProduct;
+import HomeWork16.Task1.Service.NewProductService;
+import HomeWork16.Task1.Service.NewProductServiceImpl;
 
 import java.util.HashMap;
 import java.util.Map;

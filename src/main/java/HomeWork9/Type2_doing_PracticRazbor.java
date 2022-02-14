@@ -1,4 +1,4 @@
-package main.java.HomeWork9;
+package HomeWork9;
 
 public class Type2_doing_PracticRazbor implements Learningable {
     private static final double TYPE2 = 2.0;

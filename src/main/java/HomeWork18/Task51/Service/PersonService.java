@@ -1,4 +1,4 @@
-package main.java.HomeWork18.Task51.Service;
+package HomeWork18.Task51.Service;
 
 import java.util.Random;
 

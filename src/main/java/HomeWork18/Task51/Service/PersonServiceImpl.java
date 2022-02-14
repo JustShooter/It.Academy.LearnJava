@@ -1,7 +1,7 @@
-package main.java.HomeWork18.Task51.Service;
+package HomeWork18.Task51.Service;
 
-import main.java.HomeWork18.Task51.Model.PersonNames;
-import main.java.HomeWork18.Task51.Model.PersonSurnames;
+import HomeWork18.Task51.Model.PersonNames;
+import HomeWork18.Task51.Model.PersonSurnames;
 
 public class PersonServiceImpl implements PersonService {
 
