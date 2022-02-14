@@ -16,9 +16,7 @@ public class Task31 {
         System.out.println("Скорость сложения String " + firstDelta / 1000000000 + " сек");
 
         long secondStart = System.nanoTime();
-        for (int i = 0; i < 1000000; i++) {
-            tmpB.append(strB);
-        }
+        tmpB.append(String.valueOf(strB).repeat(1000000));
         long secondFinish = System.nanoTime();
         double secondDelta = secondFinish - secondStart;
         System.out.println("Скорость работы метода append в StringBuilder " + secondDelta / 1000000000 + " сек");
