@@ -19,12 +19,15 @@ public class Task8 {
         int a = scanner.nextInt();
         int total1 = 0;
         switch (a) {
-            case 0 -> total1 = (RANDOM.nextInt(BOUND));
+            case 0 -> {
+                int x = RANDOM.nextInt(BOUND);
+                total1 = x;
+            }
             case 1 -> {
                 System.out.println("Введите сумму:");
                 total1 = scanner.nextInt();
             }
-            default -> System.out.println("Неправильный выбор!");
+            default -> System.err.println("Неправильный выбор!");
         }
         this.total = total1;
     }
