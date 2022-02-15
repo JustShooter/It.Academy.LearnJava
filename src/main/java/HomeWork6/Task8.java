@@ -1,9 +1,15 @@
 package HomeWork6;
 
+import java.security.SecureRandom;
 import java.util.Scanner;
 
 public class Task8 {
 
+    public static final int BOUND = 10000;
+    public static final SecureRandom RANDOM = new SecureRandom();
+    /**
+     * Store total value
+     */
     private int total;
 
     public void setTotal() {
@@ -13,15 +19,15 @@ public class Task8 {
         int a = scanner.nextInt();
         int total1 = 0;
         switch (a) {
-            case 0:
-                total1 = (int) (Math.random() * 10000);
-                break;
-            case 1:
+            case 0 -> {
+                int x = RANDOM.nextInt(BOUND);
+                total1 = x;
+            }
+            case 1 -> {
                 System.out.println("Введите сумму:");
                 total1 = scanner.nextInt();
-                break;
-            default:
-                System.out.println("Неправильный выбор!");
+            }
+            default -> System.err.println("Неправильный выбор!");
         }
         this.total = total1;
     }
