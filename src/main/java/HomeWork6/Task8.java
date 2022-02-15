@@ -1,9 +1,14 @@
 package HomeWork6;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Task8 {
 
+    public static final int BOUND = 10000;
+    /**
+     * Store total value
+     */
     private int total;
 
     public void setTotal() {
@@ -14,7 +19,7 @@ public class Task8 {
         int total1 = 0;
         switch (a) {
             case 0:
-                total1 = (int) (Math.random() * 10000);
+                total1 = (int) (new Random().nextInt(BOUND));
                 break;
             case 1:
                 System.out.println("Введите сумму:");
