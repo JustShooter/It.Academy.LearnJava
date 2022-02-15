@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Task8 {
 
     public static final int BOUND = 10000;
+    public static final Random RANDOM = new Random();
     /**
      * Store total value
      */
@@ -18,15 +19,12 @@ public class Task8 {
         int a = scanner.nextInt();
         int total1 = 0;
         switch (a) {
-            case 0:
-                total1 = (int) (new Random().nextInt(BOUND));
-                break;
-            case 1:
+            case 0 -> total1 = (RANDOM.nextInt(BOUND));
+            case 1 -> {
                 System.out.println("Введите сумму:");
                 total1 = scanner.nextInt();
-                break;
-            default:
-                System.out.println("Неправильный выбор!");
+            }
+            default -> System.out.println("Неправильный выбор!");
         }
         this.total = total1;
     }
