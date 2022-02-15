@@ -1,5 +1,8 @@
 package homeWork1;
 
+/**
+ * Some easy task.
+ */
 public class HomeWork1 {
     public static void main(String[] args) {
         System.out.println("Минимальное значение byte = " + Byte.MIN_VALUE);
