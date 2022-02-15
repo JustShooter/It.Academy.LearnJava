@@ -27,7 +27,7 @@ public class Task8 {
                 System.out.println("Введите сумму:");
                 total1 = scanner.nextInt();
             }
-            default -> System.err.println("Неправильный выбор!");
+            default ->  System.out.println("Неправильный выбор!");
         }
         this.total = total1;
     }
